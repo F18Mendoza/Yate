@@ -24,7 +24,7 @@ public class Bateria {
 			result = pRequest;
 			energyLevel = energyLevel - pRequest;  // energyLevel-=pRequest;
 		}
-		
+		System.out.print("Energía consumida: " + result);
 		return result;
 	}
 
